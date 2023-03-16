@@ -37,7 +37,7 @@ export default function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="sticky">
+    <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           
@@ -54,6 +54,7 @@ export default function ResponsiveAppBar() {
               letterSpacing: '.3rem',
               color: 'coral',
               textDecoration: 'none',
+              
             }}
           >
             TFT IMPIANTI SRL

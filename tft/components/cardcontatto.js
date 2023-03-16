@@ -6,32 +6,31 @@ import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
 import { shadows } from '@mui/system'
 
-export default function LandingHero(props) {
+export default function PostInEvidenza(props) {
     return (
         <Container maxWidth="lg">
             <Paper elevation={5}
                 sx={{
-                    top:20,
                     position: 'relative',
-                    backgroundColor: 'rgba(190,60,0)',
+                    backgroundColor: 'grey.800',
                     color: '#fff',
                     mb: 4,
                     /*backgroundImage: 'url(' + post.immagine + ')',*/
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center',
-                    borderRadius:'40px',
+                    borderRadius:'30px',
                     
                 }}
             >
                 <Box
                     sx={{
                         position: 'absolute',
-                        top:0,
+                        top: 0,
                         bottom: 0,
                         right: 0,
                         left: 0,
-                        backgroundColor: 'rgba(0,0,0,0.6)',
+                        backgroundColor: 'rgba(0,0,0,0.4)',
                         borderRadius:'40px'
                     }}
                 />
